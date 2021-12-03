@@ -1,16 +1,3 @@
-<style>
-.note {
-    padding: 8px 35px 8px 14px;
-    margin-bottom: 20px;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-    border-radius: 4px;
-    color: #000000;
-    background-color: #F2BFC7;
-    border-color: #F15A72;
-}
-</style>
-
-
 ![github-actions](https://github.com/rnikutta/datalab/workflows/Build,%20test,%20deploy%20pip%20package%20of%20datalab%20cmd%20line%20client/badge.svg?branch=master)
 
 # THE DATALAB COMMAND LINE CLIENT
@@ -74,7 +61,17 @@ filesystem, you will need to touch a file in your home directory:
 touch ~/.netrc
 ```
 
-<div class="note">
+<div>
+
+<style>
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    border-radius: 4px;
+    color: #000000;
+    background-color: #F2BFC7;
+    border-color: #F15A72;
+</style>
 
 ## Configuration update: If you upgraded from a version prior to v2.20.0
 
